@@ -1,0 +1,35 @@
+PODS:
+  - ZegoExpressEngine (2.23.0):
+    - ZegoExpressEngine/Video (= 2.23.0)
+  - ZegoExpressEngine/Video (2.23.0)
+  - ZegoUIKit (1.4.1):
+    - ZegoExpressEngine
+  - ZegoUIKitPrebuiltCall (1.2.4):
+    - ZegoUIKit
+  - ZegoUIKitSignalingPlugin (1.0.0):
+    - ZegoUIKit
+    - ZIM (>= 2.3.1)
+  - ZIM (2.4.0)
+
+DEPENDENCIES:
+  - ZegoUIKitPrebuiltCall
+  - ZegoUIKitSignalingPlugin
+
+SPEC REPOS:
+  trunk:
+    - ZegoExpressEngine
+    - ZegoUIKit
+    - ZegoUIKitPrebuiltCall
+    - ZegoUIKitSignalingPlugin
+    - ZIM
+
+SPEC CHECKSUMS:
+  ZegoExpressEngine: 2a02a784a20f2fc327af8d09b528806ec00fa93e
+  ZegoUIKit: 07114571ed506efd81db48aba3d48f42b8d61e91
+  ZegoUIKitPrebuiltCall: 70045f5506fbee8a67f51c0670201607b8a20704
+  ZegoUIKitSignalingPlugin: ada67e0ee6a7367337762e6e1a88fbe8c8173c3c
+  ZIM: dacf435d3a486bb5ef132b6c8848ad3aced4874e
+
+PODFILE CHECKSUM: f349a53a8372220d34fe5dd4249cf58054e7102d
+
+COCOAPODS: 1.11.3
